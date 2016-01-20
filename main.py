@@ -1,9 +1,12 @@
 from flask import Flask
+import flask
+
 app = Flask(__name__)
 
-@app.route("/")
-def hello():
-    return "Hello World!"
+@app.route("/api/game/<int:game_id>")
+def find_game_id(game_id):
+    f = {'key':'hello'}
+    return flask.jsonify(**f)
 
 if __name__ == "__main__":
     app.run()
