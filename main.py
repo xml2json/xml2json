@@ -1,5 +1,5 @@
 from flask import Flask
-import flask
+import flask, os
 
 app = Flask(__name__)
 
@@ -14,4 +14,5 @@ def save_game_result():
     return flask.jsonify(**f)
 
 if __name__ == "__main__":
+    app.debug = (os.environ.get('XML2JSON_DEBUG') or "").lower() == "true"
     app.run()
