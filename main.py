@@ -3,7 +3,7 @@ import flask
 
 app = Flask(__name__)
 
-@app.route("/api/game/<int:game_id>")
+@app.route("/api/game/<int:game_id>", methods=['GET'])
 def find_game_id(game_id):
     f = {'key':'hello'}
     return flask.jsonify(**f)
