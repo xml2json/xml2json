@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright 2001-2013 Opta Sportsdata Ltd. All rights reserved. -->
+
+<!-- PRODUCTION HEADER
+     produced on:        valde-jobq-a07.nexus.opta.net
+     production time:    20130316T161701,745Z
+     production module:  Opta::Feed::XML::RugbyUnion::RU50
+-->
+<RU50_EventFeed>
+  <Game away_score="15" game_id="913051" home_score="19" status="Second half" timer_running="1">
+    <Event id="1739727" direction="Left to Right" direction_of_play_x="51.6" direction_of_play_y="93.3" event_id="742" event_type_id="19" event_type_name="Ruck" game_id="913051" last_modified="2013-03-16 16:16:55" outcome="1" period="Second Half" period_id="4" period_minute="77" period_second="49" player_id="0" team_id="600" timestamp="2013-03-16 16:16:55" timestamp_milliseconds="297" x="51.6" y="93.3">
+      <Qualifiers id="2312577" name="Won" qualifier_id="135" value="" />
+    </Event>
+  </Game>
+</RU50_EventFeed>

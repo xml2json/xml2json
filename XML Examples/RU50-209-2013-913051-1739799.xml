@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright 2001-2013 Opta Sportsdata Ltd. All rights reserved. -->
+
+<!-- PRODUCTION HEADER
+     produced on:        valde-jobq-a07.nexus.opta.net
+     production time:    20130316T162310,687Z
+     production module:  Opta::Feed::XML::RugbyUnion::RU50
+-->
+<RU50_EventFeed>
+  <Game away_score="15" game_id="913051" home_score="22" status="Fulltime" timer_running="0">
+    <Event id="1739799" direction="Left to Right" direction_of_play_x="0.00" direction_of_play_y="0.00" event_id="778" event_type_id="7" event_type_name="End" game_id="913051" last_modified="2013-03-16 16:23:06" outcome="0" period="Second Half" period_id="4" period_minute="80" period_second="34" player_id="0" team_id="600" timestamp="2013-03-16 16:23:06" timestamp_milliseconds="622" x="0.00" y="0.00">
+      <Qualifiers></Qualifiers>
+    </Event>
+  </Game>
+</RU50_EventFeed>

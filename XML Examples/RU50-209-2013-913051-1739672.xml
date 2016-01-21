@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright 2001-2013 Opta Sportsdata Ltd. All rights reserved. -->
+
+<!-- PRODUCTION HEADER
+     produced on:        valde-jobq-b01.nexus.opta.net
+     production time:    20130316T161540,783Z
+     production module:  Opta::Feed::XML::RugbyUnion::RU50
+-->
+<RU50_EventFeed>
+  <Game away_score="15" game_id="913051" home_score="19" status="Second half" timer_running="1">
+    <Event id="1739672" direction="Left to Right" direction_of_play_x="36.8" direction_of_play_y="29.6" event_id="704" event_type_id="21" event_type_name="Scrum" game_id="913051" last_modified="2013-03-16 16:15:37" outcome="1" period="Second Half" period_id="4" period_minute="76" period_second="26" player_id="0" team_id="600" timestamp="2013-03-16 16:15:33" timestamp_milliseconds="16" x="36.8" y="29.6">
+      <Qualifiers id="2312528" name="Stable" qualifier_id="100" value="" />
+      <Qualifiers id="2312529" name="WonOutRight" qualifier_id="107" value="" />
+      <Qualifiers id="2312531" name="Pass" qualifier_id="118" value="" />
+      <Qualifiers id="2312530" name="Possession" qualifier_id="163" value="1" />
+    </Event>
+  </Game>
+</RU50_EventFeed>

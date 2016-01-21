@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright 2001-2013 Opta Sportsdata Ltd. All rights reserved. -->
+
+<!-- PRODUCTION HEADER
+     produced on:        valde-jobq-a03.nexus.opta.net
+     production time:    20130316T161745,985Z
+     production module:  Opta::Feed::XML::RugbyUnion::RU50
+-->
+<RU50_EventFeed>
+  <Game away_score="15" game_id="913051" home_score="19" status="Second half" timer_running="1">
+    <Event id="1739756" direction="Left to Right" direction_of_play_x="31.6" direction_of_play_y="17.2" event_id="759" event_type_id="29" event_type_name="Turnover" game_id="913051" last_modified="2013-03-16 16:17:43" outcome="1" period="Second Half" period_id="4" period_minute="78" period_second="36" player_id="10254" team_id="600" timestamp="2013-03-16 16:17:42" timestamp_milliseconds="515" x="31.6" y="17.2">
+      <Qualifiers id="2312601" name="Knock On" qualifier_id="142" value="" />
+      <Qualifiers id="2312602" name="Possession" qualifier_id="163" value="o" />
+      <Qualifiers id="2312603" name="Own Half" qualifier_id="164" value="1" />
+    </Event>
+  </Game>
+</RU50_EventFeed>
