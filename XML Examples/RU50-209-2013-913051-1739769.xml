@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright 2001-2013 Opta Sportsdata Ltd. All rights reserved. -->
+
+<!-- PRODUCTION HEADER
+     produced on:        valde-jobq-a04.nexus.opta.net
+     production time:    20130316T161915,156Z
+     production module:  Opta::Feed::XML::RugbyUnion::RU50
+-->
+<RU50_EventFeed>
+  <Game away_score="15" game_id="913051" home_score="19" status="Second half" timer_running="1">
+    <Event id="1739769" direction="Right to Left" direction_of_play_x="72.7" direction_of_play_y="90" event_id="763" event_type_id="8" event_type_name="Kick" game_id="913051" last_modified="2013-03-16 16:19:09" outcome="1" period="Second Half" period_id="4" period_minute="79" period_second="18" player_id="7015" team_id="952" timestamp="2013-03-16 16:19:05" timestamp_milliseconds="740" x="27.3" y="10">
+      <Qualifiers id="2312614" name="Penalty Kick" qualifier_id="121" value="" />
+      <Qualifiers id="2312615" name="In Touch" qualifier_id="122" value="" />
+      <Qualifiers id="2312616" name="Possession" qualifier_id="163" value="-1" />
+      <Qualifiers id="2312619" name="Metres" qualifier_id="166" value="25.59" />
+      <Qualifiers id="2312617" direction_of_play_end_x="94.29" name="End X" qualifier_id="167" value="5.71" />
+      <Qualifiers id="2312618" direction_of_play_end_y="95.66" name="End Y" qualifier_id="168" value="4.34" />
+    </Event>
+  </Game>
+</RU50_EventFeed>
