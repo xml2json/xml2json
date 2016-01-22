@@ -42,7 +42,7 @@ def elem_to_internal(elem,strip=1):
 
     d = {}
     for key, value in elem.attrib.items():
-        d['@'+key] = value
+        d[key] = value
 
     # loop over subelements to merge them
     for subelem in elem:
