@@ -1,8 +1,8 @@
 from flask.ext.rq import job
 
 @job
-def saveJSON2Mongo():
-    print("Not implemented! SaveJSON2Mongo")
+def saveJSON2DB(jsonStr):
+    print("Not implemented! saveJSON2DB")
 
 @job
 def convertXML2JSON(xmlStr):
