@@ -9,8 +9,6 @@ RQ(app)
 
 @app.route("/api/game/<int:game_id>", methods=['GET'])
 def find_game_id(game_id):
-    # f = {'err':'not implemented'}
-    # sleepForThreeSeconds.delay()
     try:
         json = eventsJSONWithGameId(game_id)
     except:
