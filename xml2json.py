@@ -73,7 +73,7 @@ def elem_to_internal(elem,strip=1):
         if text: d["#text"] = text
     else:
         # text is the value if no attributes
-        d = text or None
+        d = text or ""
     return {elem.tag: d}
 
 
@@ -124,7 +124,8 @@ def elem2json(elem, strip=1):
 
     if hasattr(elem, 'getroot'):
         elem = elem.getroot()
-    return simplejson.dumps(elem_to_internal(elem,strip=strip))
+    #return simplejson.dumps(elem_to_internal(elem,strip=strip))
+    return elem_to_internal(elem,strip=strip)
 
 
 def json2elem(json, factory=ET.Element):
