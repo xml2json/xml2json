@@ -28,5 +28,4 @@ def save_game_result():
     return flask.jsonify({'message':'processing feed'}), status.HTTP_200_OK
 
 if __name__ == "__main__":
-    app.debug = True
     app.run()
