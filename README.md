@@ -19,5 +19,5 @@ pip install -r requirements.txt
 
 ### Entry point
 ```bash
-python main.py
+./run-server.sh   # Installs dependencies and spins up the server.
 ```
