@@ -1,23 +1,16 @@
 from flask.ext.rq import job
-from converter import converter
+from simple_converter import simple_converter
 import couchdb, json
 
 @job
-def saveJSON2DB(jsonStr):
-	#how to I access the database???
+def saveJSON2DB(jsonObj):
 	couch = couchdb.Server()
 
-	jsonObj = json.loads(jsonStr)
-
-    ##Because couchdb require that the name of a database to begin with letter
 	key = 'g' + jsonObj.keys()[0]
 
-	##test if the database with game_id exist
 	try:
-		#could raise ResourceNotFound error
 		db = couch[key]
 	except couchdb.http.ResourceNotFound:
-		#if doesn't exist, create a new database
 		db = couch.create(key)
 
 	db.save(jsonObj.values()[0])
@@ -36,7 +29,7 @@ def eventsJSONWithGameId(game_id):
 
 @job
 def convertXML2JSON(xmlStr):
-    return converter(xmlStr)
+    return simple_converter(xmlStr)
 
 @job
 def saveEventFeed(feed):
