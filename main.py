@@ -13,9 +13,9 @@ RQ(app)
 def find_game_id(game_id):
     try:
         json = eventsJSONWithGameId(game_id)
+        return flask.jsonify({'message':'', 'result': json}), status.HTTP_200_OK
     except:
         return flask.jsonify({'message':'game id not found!'}), status.HTTP_404_NOT_FOUND
-    return flask.jsonify({'message':'', 'result': json}), status.HTTP_200_OK
 
 @app.route("/api/save", methods=['POST'])
 def save_game_result():
