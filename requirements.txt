@@ -3,3 +3,4 @@ pymongo==3.2
 simplejson==3.8.1
 flask-rq
 couchdb
+Flask-API
