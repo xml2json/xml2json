@@ -27,7 +27,7 @@ def saveJSON2DB(jsonStr):
 @job
 def returnJSON2Clint(game_id):
 	couch = couchdb.Server()
-	key = 'g' + game_id
+	key = 'g' + str(aame_id)
 
 	try:
 	    db = couch[key]
